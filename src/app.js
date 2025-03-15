@@ -18,6 +18,7 @@ app.use(express.json({ limit: '20mb' }));
 // Rute API
 app.get('/', (req, res) => {
     res.status(200).json({ 
+        code: 200,
         message: 'Selamat Datang di API S!MATREN' 
     });
 });
